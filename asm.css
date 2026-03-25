@@ -1,0 +1,77 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+body
+{
+    background-color: black;
+    color: white;
+}
+
+.header{
+    text-align: center;
+   padding: 20px;
+   font-family: 'Times New Roman', Times, serif;
+   font-style: oblique;
+   font-size: medium;
+}
+
+ul ,li{
+    display: inline-block;
+    color: rgb(124, 119, 119);
+    font-weight: bolder;
+    margin-left: 5px;
+}
+
+li:hover{
+    color: white ;
+    cursor: pointer;
+}
+.navbar{
+    text-align: center;
+    margin: 30px;
+}
+
+input{
+    width: 250px;
+    color: black;
+    font-size: medium;
+    font-weight: bolder;
+
+}
+
+.searchbar
+{
+    text-align: center;
+}
+
+.image {
+    display: flex;
+    flex-wrap: wrap;      /* allows next row when space ends */
+    justify-content: center; /* centers all cards perfectly */
+    gap: 20px;            /* equal space between cards */
+    padding: 20px;
+}
+
+.card {
+    border: 3px solid white;
+    width: 220px;
+    text-align: center;
+    background: black;    /* optional */
+    color: white;         /* optional */
+    padding-bottom: 10px; /* for space under text */
+}
+.card img {
+    width: 220px;
+    height: 220px;
+    object-fit: cover;   /* makes images uniform without distortion */
+}
+
+.contact
+{
+    background-color: white;
+    text-align: center;
+    color: black;
+
+}
